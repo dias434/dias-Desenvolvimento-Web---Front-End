@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dias|Desenvolvimento Web & Front End</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="1743555959586.jpg" type="image/png">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-r from-black via-green-900 to-black text-white">
+
+    <!-- Navbar -->
+    <header class="flex justify-between items-center px-4 md:px-10 py-6 sticky top-0 z-50 bg-black/80 backdrop-blur-sm">
+        <h1 class="text-3xl font-bold">
+            <span class="text-green-400">d</span>ia<span class="text-green-400">s</span>
+        </h1>
+        
+        <nav class="flex justify-center">
+            <ul class="flex gap-4 md:gap-8 md:pl-32">
+                <li><a href="#inicio" class="hover:text-green-400 transition duration-300">Início</a></li>
+                <li><a href="#sobre" class="hover:text-green-400 transition duration-300">Sobre</a></li>
+                <li><a href="#projetos" class="hover:text-green-400 transition duration-300">Projetos</a></li>
+                <li><a href="#contato" class="hover:text-green-400 transition duration-300">Contato</a></li>
+            </ul>
+        </nav>
+        
+        <div class="flex gap-2 md:gap-4">
+            <a href="https://www.linkedin.com/in/arthur-dias-86a654350/" target="_blank" class="bg-green-500 p-2 rounded-full hover:bg-green-400 transition">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="w-5 h-5 md:w-6 md:h-6 brightness-0">
+            </a>
+            <a href="https://wa.me/5562993130925" target="_blank" class="bg-green-500 p-2 rounded-full hover:bg-green-400 transition">
+                <img src="https://cdn-icons-png.flaticon.com/512/126/126341.png" alt="WhatsApp" class="w-5 h-5 md:w-6 md:h-6">
+            </a>
+            <a href="https://github.com/dias434" target="_blank" class="bg-green-500 p-2 rounded-full hover:bg-green-400 transition">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="w-5 h-5 md:w-6 md:h-6">
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main id="inicio" class="flex justify-center items-center px-4 md:px-16 py-16 min-h-screen">
+        <div class="max-w-lg text-center" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">Desenvolvedor <br> Web</h2>
+            <p class="text-green-300 text-sm tracking-wide mt-2">Front-End</p>
+    
+            <p class="text-gray-300 text-base md:text-lg mt-6 md:mt-8">
+                Sou um desenvolvedor Front End apaixonado pela criação de interfaces web atrativas e funcionais.
+                Meu foco é construir aplicações que não apenas atendam às necessidades dos usuários,
+                mas que também proporcionem uma experiência intuitiva e envolvente.
+                Vamos trabalhar juntos!
+            </p>
+
+            <div class="flex flex-col sm:flex-row justify-center gap-4 md:gap-8 mt-8">
+                <a href="#projetos" class="bg-green-500 text-white py-2 px-6 rounded-full hover:bg-green-400 transition" data-aos="fade-up" data-aos-delay="300">Veja meus projetos</a>
+                <a href="#contato" class="bg-transparent border-2 border-white text-white py-2 px-6 rounded-full hover:bg-white hover:text-black transition" data-aos="fade-up" data-aos-delay="500">Contate-me</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sobre Mim -->
+    <div id="sobre" class="mt-16">
+        <section class="flex flex-col md:flex-row items-start gap-8 max-w-6xl mx-auto px-4 md:px-8 py-12">
+            <div class="md:w-2/3" data-aos="fade-right" data-aos-duration="800">
+                <h1 class="text-lg font-bold text-green-400 mb-6">Sobre Mim</h1>
+                <h2 class="text-2xl md:text-3xl font-semibold text-white mb-4">Desenvolvedor Web & Front-End</h2>
+                
+                <p class="text-base md:text-lg font-semibold text-gray-300 mb-4">
+                    Sou um desenvolvedor web apaixonado por transformar ideias em interfaces intuitivas e funcionais. Especializado em desenvolvimento front-end.
+                </p>
+                
+                <p class="text-base md:text-lg font-semibold text-gray-300">
+                    Com um olhar atento para detalhes e usabilidade, crio experiências interativas que combinam design e tecnologia para oferecer produtos digitais envolventes. Minha missão é construir interfaces responsivas, acessíveis e otimizadas, garantindo que cada usuário tenha a melhor experiência possível, independentemente do dispositivo ou plataforma. <br> 🚀 Sempre em busca de novos desafios e oportunidades para crescer como desenvolvedor!
+                </p>
+            </div>
+            
+            <div class="md:w-1/2 flex items-center justify-center mt-8 md:mt-12" data-aos="fade-left" data-aos-duration="800">
+                <img 
+                    src="1743555959586.jpg"  
+                    alt="Foto do Desenvolvedor"
+                    class="rounded-lg shadow-xl object-cover w-full h-auto max-h-[500px] md:max-h-[700px] min-h-[200px]"  
+                >
+            </div>
+        </section>
+        
+        <div class="bg-gradient-to-r from-black via-green-900 via-green-800 to-black py-12">
+            <div class="w-full max-w-5xl mx-auto px-4">
+                <h2 class="text-2xl md:text-3xl font-bold text-center" data-aos="fade-down">Habilidades Técnicas</h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 my-8">
+                    <div class="p-4 md:p-5" data-aos="fade-up" data-aos-delay="100">
+                        <div class="flex justify-between text-base md:text-lg mb-3">
+                            <span>JavaScript</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2 md:h-3">
+                            <div class="bg-green-500 h-2 md:h-3 rounded-full" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="p-4 md:p-5" data-aos="fade-up" data-aos-delay="150">
+                        <div class="flex justify-between text-base md:text-lg mb-3">
+                            <span>Python</span>
+                            <span>73%</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2 md:h-3">
+                            <div class="bg-green-500 h-2 md:h-3 rounded-full" style="width: 73%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="p-4 md:p-5" data-aos="fade-up" data-aos-delay="200">
+                        <div class="flex justify-between text-base md:text-lg mb-3">
+                            <span>React</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2 md:h-3">
+                            <div class="bg-green-500 h-2 md:h-3 rounded-full" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="p-4 md:p-5" data-aos="fade-up" data-aos-delay="250">
+                        <div class="flex justify-between text-base md:text-lg mb-3">
+                            <span>Tailwindcss</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2 md:h-3">
+                            <div class="bg-green-500 h-2 md:h-3 rounded-full" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="p-4 md:p-5" data-aos="fade-up" data-aos-delay="300">
+                        <div class="flex justify-between text-base md:text-lg mb-3">
+                            <span>Django</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2 md:h-3">
+                            <div class="bg-green-500 h-2 md:h-3 rounded-full" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="p-4 md:p-5" data-aos="fade-up" data-aos-delay="350">
+                        <div class="flex justify-between text-base md:text-lg mb-3">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2 md:h-3">
+                            <div class="bg-green-500 h-2 md:h-3 rounded-full" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="p-4 md:p-5" data-aos="fade-up" data-aos-delay="400">
+                        <div class="flex justify-between text-base md:text-lg mb-3">
+                            <span>CSS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2 md:h-3">
+                            <div class="bg-green-500 h-2 md:h-3 rounded-full" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="p-4 md:p-5" data-aos="fade-up" data-aos-delay="450">
+                        <div class="flex justify-between text-base md:text-lg mb-3">
+                            <span>Angular</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2 md:h-3">
+                            <div class="bg-green-500 h-2 md:h-3 rounded-full" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center pt-1 pb-4">
+                    <a href="#contato" class="inline-block bg-green-600 hover:bg-green-500 text-white font-medium py-2 px-6 md:py-3 md:px-8 rounded-lg text-base md:text-lg transition duration-300" data-aos="fade-up" data-aos-delay="500">
+                        Entre em contato
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projetos -->
+    <div id="projetos" class="bg-gradient-to-r from-black via-green-900 to-black min-h-screen p-4 md:p-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-8">
+                <h1 class="text-3xl md:text-4xl font-bold mb-2 text-white" data-aos="fade-down">PROJETOS</h1>
+                <div class="w-24 h-1 bg-green-600 mx-auto" data-aos="fade-down" data-aos-delay="100"></div>
+            </div>
+
+            <div class="max-w-6xl mx-auto space-y-8 md:space-y-12">
+                <!-- Projeto 1 -->
+                <div class="project-card bg-green-900/80 rounded-xl overflow-hidden flex flex-col lg:flex-row border border-green-700/50" data-aos="fade-up">
+                    <div class="lg:w-1/2 p-6 md:p-8 lg:p-12">
+                        <h2 class="text-xl md:text-2xl font-bold mb-4">Gastronomic Charm</h2>
+                        <p class="mb-4 md:mb-6 leading-relaxed">
+                            Desenvolvi este site como projeto prático para demonstrar minhas habilidades em desenvolvimento web.
+                        </p>
+                        
+                        <div class="mb-6 md:mb-8">
+                            <p class="font-semibold mb-2">✨ Tecnologias Utilizadas:</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-green-800/50 px-3 py-1 rounded-full text-xs md:text-sm">HTML5</span>
+                                <span class="bg-green-800/50 px-3 py-1 rounded-full text-xs md:text-sm">CSS3</span>
+                                <span class="bg-green-800/50 px-3 py-1 rounded-full text-xs md:text-sm">JavaScript</span>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="lg:w-1/2 bg-green-100/20 p-6 md:p-8 flex items-end">
+                        <div class="w-full text-center">
+                            <div class="w-full h-[200px] md:h-[280px] bg-green-200/30 rounded-lg overflow-hidden relative">
+                                <img 
+                                    src="Imagem do WhatsApp de 2025-04-03 à(s) 13.11.22_d686348e.jpg" 
+                                    alt="Gastronomic Charm"
+                                    class="w-full h-full object-cover object-top"
+                                >
+                            </div>
+                            <p class="text-xs md:text-sm text-green-300 mt-2">Gastronomic Charm</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Projeto 2 -->
+                <div class="project-card bg-green-900/80 rounded-xl overflow-hidden flex flex-col lg:flex-row border border-green-700/50" data-aos="fade-up" data-aos-delay="200">
+                    <div class="lg:w-1/2 p-6 md:p-8 lg:p-12">
+                        <h2 class="text-xl md:text-2xl font-bold mb-4">Igreja Presbiteriana do Criméia Leste</h2>
+                        <p class="mb-4 md:mb-6 leading-relaxed">
+                            Desenvolvi este site prático para aprimorar minhas habilidades em desenvolvimento front-end, criando uma solução digital para a Igreja Presbiteriana do Crimeia Leste.
+                        </p>
+                        
+                        <div class="mb-6 md:mb-8">
+                            <p class="font-semibold mb-2">✨ Tecnologias Utilizadas:</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-green-800/50 px-3 py-1 rounded-full text-xs md:text-sm">HTML</span>
+                                <span class="bg-green-800/50 px-3 py-1 rounded-full text-xs md:text-sm">CSS</span>
+                                <span class="bg-green-800/50 px-3 py-1 rounded-full text-xs md:text-sm">JavaScript</span>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="lg:w-1/2 bg-green-100/20 p-6 md:p-8 flex items-end">
+                        <div class="w-full text-center">
+                            <div class="w-full h-[200px] md:h-[250px] bg-green-200/30 rounded-lg overflow-hidden relative">
+                                <img 
+                                    src="Imagem do WhatsApp de 2025-04-03 à(s) 13.10.41_a2d0cb10.jpg" 
+                                    alt="IPCL"
+                                    class="w-full h-full object-cover object-top"
+                                >
+                            </div>
+                            <p class="text-xs md:text-sm text-green-300 mt-2">IPCL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contato -->
+    <section id="contato" class="bg-gradient-to-r from-black via-green-900 to-black py-12 md:py-16 px-4 md:px-8">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 md:gap-12 items-center">
+            <div class="md:w-1/2" data-aos="fade-right">
+                <h3 class="text-xl md:text-2xl font-bold mb-4 md:mb-6">Informações de contato</h3>
+                
+                <p class="text-base md:text-lg text-gray-300 mb-6 md:mb-8">
+                    Estou disponível para trabalhos freelance! Fique à vontade para entrar em contato comigo através dos canais abaixo:
+                </p>
+                
+                <div class="space-y-4 md:space-y-6">
+                    <div class="flex items-center gap-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="bg-green-600 p-2 md:p-3 rounded-full">
+                            <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email" class="w-5 h-5 md:w-6 md:h-6">
+                        </div>
+                        <div>
+                            <p class="text-gray-400 text-sm md:text-base">Email</p>
+                            <p class="text-white font-medium text-sm md:text-base">diasa3705@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center gap-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="bg-green-600 p-2 md:p-3 rounded-full">
+                            <img src="https://cdn-icons-png.flaticon.com/512/126/126341.png" alt="Telefone" class="w-5 h-5 md:w-6 md:h-6">
+                        </div>
+                        <div>
+                            <p class="text-gray-400 text-sm md:text-base">Telefone</p>
+                            <p class="text-white font-medium text-sm md:text-base">+55 (62) 99313-0925</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center gap-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="bg-green-600 p-2 md:p-3 rounded-full">
+                            <img src="https://cdn-icons-png.flaticon.com/512/684/684809.png" alt="Localização" class="w-5 h-5 md:w-6 md:h-6">
+                        </div>
+                        <div>
+                            <p class="text-gray-400 text-sm md:text-base">Localização</p>
+                            <p class="text-white font-medium text-sm md:text-base">Remoto / Mundial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="md:w-1/2 flex justify-center mt-8 md:mt-0" data-aos="fade-left" data-aos-delay="200">
+                <img src="Imagem do WhatsApp de 2025-04-01 à(s) 13.39.01_c317f3ad.jpg" alt="Foto de Perfil" class="rounded-lg w-full max-w-md h-auto shadow-xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-black py-8 md:py-12 px-4 md:px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-8 mb-6 md:mb-8">
+                <div class="flex flex-wrap justify-center gap-4 md:gap-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition text-sm md:text-base">Política de Privacidade</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition text-sm md:text-base">Termos de Serviço</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition text-sm md:text-base">Política de Cookies e Navegação</a>
+                </div>
+                
+                <div class="flex flex-wrap justify-center gap-4 md:gap-6">
+                    <a href="#inicio" class="text-gray-400 hover:text-white transition text-sm md:text-base">Início</a>
+                    <a href="#sobre" class="text-gray-400 hover:text-white transition text-sm md:text-base">Sobre</a>
+                    <a href="#projetos" class="text-gray-400 hover:text-white transition text-sm md:text-base">Projetos</a>
+                    <a href="#contato" class="text-gray-400 hover:text-white transition text-sm md:text-base">Contato</a>
+                </div>
+            </div>
+            
+            <div class="text-center text-gray-500 text-xs md:text-sm">
+                <p>&copy; 2025 dias|Desenvolvimento Web & Front End. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html>
